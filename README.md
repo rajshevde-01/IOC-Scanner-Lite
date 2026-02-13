@@ -260,28 +260,6 @@ cd ..
 - Reports are stored in the `reports/` directory with timestamp-based filenames
 - Sensitive files should be handled securely in production
 
-## 📸 Adding Screenshots
-
-To add your screenshots to the documentation:
-
-1. **Create the screenshots directory:**
-   ```bash
-   mkdir -p docs/screenshots
-   ```
-
-2. **Copy your screenshots:**
-   ```bash
-   # On Windows:
-   Copy-Item "C:\Users\rajsh\OneDrive\Pictures\Screenshots\Screenshot 2026-02-13 202739.png" "docs/screenshots/screenshot-header.png"
-   Copy-Item "C:\Users\rajsh\OneDrive\Pictures\Screenshots\Screenshot 2026-02-13 202700.png" "docs/screenshots/screenshot-results.png"
-   ```
-
-3. **Commit and push:**
-   ```bash
-   git add docs/screenshots/
-   git commit -m "Add dashboard screenshots to documentation"
-   git push
-   ```
 
 ## 🐛 Troubleshooting
 
