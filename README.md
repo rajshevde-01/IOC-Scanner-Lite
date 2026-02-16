@@ -39,7 +39,7 @@ IOC Scanner Lite is a threat intelligence tool that helps security teams quickly
 
 1. **Clone the repository**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/rajshevde-01/IOC-Scanner-Lite.git
    cd "IOC Scanner (Files + Logs)"
    ```
 
